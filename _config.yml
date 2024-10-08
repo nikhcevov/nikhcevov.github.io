@@ -34,8 +34,9 @@ url: "https://nikhcevov.github.io"
 baseurl: "" 
 
 # Build settings
-theme: minimal-mistakes-jekyll
+remote_theme: "mmistakes/minimal-mistakes@4.26.2"
 plugins:
+  - jekyll-include-cache
   - jekyll-feed
 
 # minimal-mistakes theme settings
